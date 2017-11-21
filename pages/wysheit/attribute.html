@@ -340,13 +340,6 @@
           </ul>
         </li>
         
-        
-        
-        
-        
-        
-        
-        
       </ul>
     </section>
     <!-- /.sidebar -->
@@ -357,12 +350,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Discount
+        Attribute
         <small>Control panel</small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Discount</li>
+        <li><a href="#"><i class="fa fa-dashboard"></i>Home</a></li>
+        <li class="active">Attribute</li>
       </ol>
     </section>
 
@@ -374,46 +367,34 @@
             
 			<div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Discount Details</h3>
+              <h3 class="box-title">Attribute Details</h3>
             </div>
             <!-- /.box-header -->
             <!-- form start -->
             <form role="form">
-				<div class="box-body">
-				<di.v class="form-group" >
-                  <p><label for="address">Select Product</label></p>
-                <select class="form-control" style="width:100%">
-					<option value="product">Select Product</option>
-					<option value="saab">Saab</option>
-					<option value="mercedes">Mercedes</option>
-					<option value="audi">Audi</option>
-				</select>
+              <div class="box-body">
+                <div class="form-group">
+                  <label for="store_category_id">Attribute Id</label>
+                  <input type="text" class="form-control" id="attribute_category_id" placeholder="Enter Store Category Id">
                 </div>
                 <div class="form-group">
-                  <label for="city">Discount Amount</label>
-                  <input type="text" class="form-control" id="discount_Amount" placeholder="Enter Discount Amount">
-                </div>
-                <div class="form-group">
-                  <label for="address">Start Date</label>
-                  <input type="text" class="form-control" id="start_Date" placeholder="Enter Start Date">
-                </div>
-				<div class="form-group" >
-                  <p><label for="address">Select Product</label></p>
-                <select class="form-control" style="width:100%">
-					<option value="product">Select Product</option>
-					<option value="saab">Saab</option>
-					<option value="mercedes">Mercedes</option>
-					<option value="audi">Audi</option>
-				</select>
+                  <label for="store_name">Attribute Name</label>
+                  <input type="text" class="form-control" id="attribute_name" placeholder="Enter Attribute Name">
                 </div>
 				<div class="form-group">
-                  <label for="exampleInputFile">Upload Product Image</label>
-                  <input type="file" id="exampleInputFile">
-
-                  <p class="help-block">Max image size 5MB </p>
+                  <label>Category Description</label>
+                  <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
                 </div>
-                
-                
+				<div class="form-group" >
+                  <p><label for="address">Select Category</label></p>
+                <select class="form-control" style="width:100%">
+					<option value="product">Select Product</option>
+					<option value="saab">Saab</option>
+					<option value="mercedes">Mercedes</option>
+					<option value="audi">Audi</option>
+				</select>
+                </div>
+				
               </div>
               <!-- /.box-body -->
 
